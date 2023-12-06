@@ -1,2 +1,2 @@
 # web_scraper
-webscraper
+a simple webscraper in python using selenium and insert into xlsx file
