@@ -1,4 +1,11 @@
 #!/bin/python3
+#
+#Author: israel silva de freitas
+#------------------------------
+#          CHANGELOG
+# v1.0 12/06/2023
+#   -first release
+#------------------------------
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import openpyxl
