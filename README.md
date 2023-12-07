@@ -11,3 +11,12 @@ a simple web scraper in python using selenium and inserting it into a xlsx file 
 * pip3 install -r requirements.txt
 * ./database.py
 * ./main_db.py
+
+## Problems
+if you get some problems to connect with mysql try this:
+* sudo  mysql
+* USE mysql;
+* UPDATE user SET plugin='mysql_native_password' WHERE User='root';
+* FLUSH PRIVILEGES;
+* exit;
+* sudo systemctl restart mysql.service
